@@ -1,0 +1,83 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #888888;
+    color: #ffff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    margin-top: 5rem;
+}
+
+.alert-success {
+    width: 20%;
+    height: 3rem;
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+    margin-top: 7rem;
+}
+
+.alert-success ul {
+    margin: 0;
+    height: inherit;
+}
+
+.alert-success ul li {
+    padding: 0.5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+#main-section {
+    padding: 1.5rem;
+}
+
+.main-nav {
+    background: #696969;
+    height: 5rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.main-nav ul {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    margin: 0;
+}
+.main-nav ul li {
+    padding: 1rem;
+}
+
+.main-nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.new_vote_added{
+    display: flex;
+    flex-direction: column;
+}
+
+.options-title{
+    color: sandybrown;
+}
+
+.options-container input {
+    margin-right: 1rem;
+}
+
+.btn-submit__vote {
+    background: red;
+    color: white;
+    width: 10rem;
+    height: 3.5rem;
+    margin-top: 1.5rem;
+}
+
